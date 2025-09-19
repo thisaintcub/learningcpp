@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\sc\\learningcpp\\cheatsheet\\",
+  "WorkspaceRootPath": "C:\\Users\\cub\\Documents\\GitHub\\learningcpp\\cheatsheet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC8944A6-7912-4378-BF29-135153DD5287}|cheatsheet.vcxproj|E:\\sc\\learningcpp\\cheatsheet\\cheatsheet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FC8944A6-7912-4378-BF29-135153DD5287}|cheatsheet.vcxproj|C:\\Users\\cub\\Documents\\GitHub\\learningcpp\\cheatsheet\\cheatsheet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FC8944A6-7912-4378-BF29-135153DD5287}|cheatsheet.vcxproj|solutionrelative:cheatsheet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "cheatsheet.cpp",
-              "DocumentMoniker": "E:\\sc\\learningcpp\\cheatsheet\\cheatsheet.cpp",
+              "DocumentMoniker": "C:\\Users\\cub\\Documents\\GitHub\\learningcpp\\cheatsheet\\cheatsheet.cpp",
               "RelativeDocumentMoniker": "cheatsheet.cpp",
-              "ToolTip": "E:\\sc\\learningcpp\\cheatsheet\\cheatsheet.cpp",
+              "ToolTip": "C:\\Users\\cub\\Documents\\GitHub\\learningcpp\\cheatsheet\\cheatsheet.cpp",
               "RelativeToolTip": "cheatsheet.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-19T02:58:49.704Z",
               "EditorCaption": ""
