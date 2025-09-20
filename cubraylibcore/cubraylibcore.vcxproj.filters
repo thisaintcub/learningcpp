@@ -6,20 +6,80 @@
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="src\core">
-      <UniqueIdentifier>{3d896649-1e35-48b3-9e9b-0286ddb9648d}</UniqueIdentifier>
+      <UniqueIdentifier>{77a0d28a-4e0a-406b-9b78-01b27636700b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\scene">
+      <UniqueIdentifier>{83a319b5-581b-4ea7-ad93-1d28d5137e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\util">
+      <UniqueIdentifier>{453d353d-9060-4a2a-bfd7-e5619c862098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\object">
+      <UniqueIdentifier>{1a0b71e7-2332-4856-907a-23fde824c7ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test">
+      <UniqueIdentifier>{d2bfe511-e944-4567-b787-9797c5ffbf97}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\window.cpp">
+    <ClCompile Include="src\core\screen.cpp">
       <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\game.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\object\objectman.cpp">
+      <Filter>src\core\object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\scene.cpp">
+      <Filter>src\core\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\sceneman.cpp">
+      <Filter>src\core\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\subscene.cpp">
+      <Filter>src\core\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\funnytext.cpp">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\testscene.cpp">
+      <Filter>src\test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\core\globals.h">
+    <ClInclude Include="src\core\screen.h">
       <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\game.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\object\object.h">
+      <Filter>src\core\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\object\objectman.h">
+      <Filter>src\core\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\scene.h">
+      <Filter>src\core\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\sceneman.h">
+      <Filter>src\core\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\subscene.h">
+      <Filter>src\core\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\util\globals.h">
+      <Filter>src\core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\funnytext.h">
+      <Filter>src\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\testscene.h">
+      <Filter>src\test</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
