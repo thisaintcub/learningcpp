@@ -3,6 +3,7 @@
 
 Game::Game(int width, int height, const std::string& title) : sceneman(Sceneman::getInstance()), initialized(false) {
     InitWindow(width, height, title.c_str());
+    SetWindowState(FLAG_WINDOW_RESIZABLE | FLAG_WINDOW_ALWAYS_RUN);
     SetTargetFPS(60);
     InitAudioDevice();
 
