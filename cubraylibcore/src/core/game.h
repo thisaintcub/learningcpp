@@ -1,5 +1,6 @@
 #pragma once
 #include "scene/sceneman.h"
+#include "screen.h"
 #include <raylib.h>
 #include <string>
 
@@ -17,14 +18,22 @@ public:
 
     bool shouldClose() const;
 
+    Screen& getScreen() { return screen; }
+
 private:
     void update(float deltaTime);
     void draw();
     void handleResize();
     void handleFocusChange();
+    void handleFullscreenInput();
 
     Sceneman& sceneman;
+    Screen screen;
 
     bool initialized;
     bool lastFocusState;
+    bool wasResizing;
+
+    int windowedWidth, windowedHeight;
+    int windowedPosX, windowedPosY;
 };

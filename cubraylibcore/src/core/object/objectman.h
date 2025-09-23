@@ -39,7 +39,7 @@ public:
 
     void updateAll(float deltaTime);
 
-    void renderAll();
+    void drawAll();
 
     void sortByDepth();
 

@@ -6,7 +6,7 @@ public:
     virtual ~Object() = default;
 
     virtual void update(float deltaTime) {}
-    virtual void render() {}
+    virtual void draw() {}
 
     bool active = true;
     bool visible = true;

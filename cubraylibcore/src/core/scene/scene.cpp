@@ -19,7 +19,7 @@ void Scene::draw() {
     if (persistentDraw || currentSubScene == nullptr)
         ClearBackground(bgColor);
 
-    objectMan.renderAll();
+    objectMan.drawAll();
 
     if (currentSubScene != nullptr)
         currentSubScene->draw();

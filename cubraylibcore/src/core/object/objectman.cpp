@@ -35,10 +35,10 @@ void Objectman::updateAll(float deltaTime) {
     processAddRemove();
 }
 
-void Objectman::renderAll() {
+void Objectman::drawAll() {
     for (auto& obj : objects) {
         if (obj && obj->visible)
-            obj->render();
+            obj->draw();
     }
 }
 

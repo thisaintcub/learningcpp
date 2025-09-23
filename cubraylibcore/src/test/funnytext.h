@@ -1,6 +1,6 @@
 #pragma once
 #include "../core/object/object.h"
-#include "raylib.h"
+#include <raylib.h>
 #include <string>
 
 class FunnyText : public Object {
@@ -8,7 +8,7 @@ public:
     FunnyText(const std::string& text, float x, float y, int fontSize = 20, Color color = WHITE);
 
     void update(float deltaTime) override;
-    void render() override;
+    void draw() override;
 
     Vector2 position;
     std::string text;

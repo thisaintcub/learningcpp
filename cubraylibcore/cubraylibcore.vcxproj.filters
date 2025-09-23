@@ -20,6 +20,12 @@
     <Filter Include="src\test">
       <UniqueIdentifier>{d2bfe511-e944-4567-b787-9797c5ffbf97}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\core\gui">
+      <UniqueIdentifier>{bdc6f681-adc5-47bf-8ca0-5a2e89d44fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\sprite">
+      <UniqueIdentifier>{e0193287-4d70-41c1-9dca-600d5df16b52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -47,6 +53,18 @@
       <Filter>src\test</Filter>
     </ClCompile>
     <ClCompile Include="src\test\testscene.cpp">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\windowobj.cpp">
+      <Filter>src\core\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\testwindow.cpp">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\interactivewindowobj.cpp">
+      <Filter>src\core\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\testwindowtwo.cpp">
       <Filter>src\test</Filter>
     </ClCompile>
   </ItemGroup>
@@ -79,6 +97,18 @@
       <Filter>src\test</Filter>
     </ClInclude>
     <ClInclude Include="src\test\testscene.h">
+      <Filter>src\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\testwindow.h">
+      <Filter>src\test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\windowobj.h">
+      <Filter>src\core\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\interactivewindowobj.h">
+      <Filter>src\core\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\testwindowtwo.h">
       <Filter>src\test</Filter>
     </ClInclude>
   </ItemGroup>

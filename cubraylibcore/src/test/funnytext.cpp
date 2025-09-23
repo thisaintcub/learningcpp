@@ -14,6 +14,6 @@ void FunnyText::update(float deltaTime) {
     position.y = baseY + sin(time * speed / 50.0f) * amplitude;
 }
 
-void FunnyText::render() {
+void FunnyText::draw() {
     DrawText(text.c_str(), (int)position.x, (int)position.y, fontSize, color);
 }

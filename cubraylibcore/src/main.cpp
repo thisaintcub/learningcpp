@@ -2,6 +2,9 @@
 #include "core/util/globals.h"
 #include "test/testscene.h"
 
+#define RAYGUI_IMPLEMENTATION
+#include <raygui.h>
+
 int main() {
     Game gameInstance(Globals::INIT_WINDOW_WIDTH, Globals::INIT_WINDOW_HEIGHT, Globals::INIT_WINDOW_TITLE);
     Globals::game = &gameInstance;
