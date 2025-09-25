@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{77a0d28a-4e0a-406b-9b78-01b27636700b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\scene">
+      <UniqueIdentifier>{83a319b5-581b-4ea7-ad93-1d28d5137e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\util">
+      <UniqueIdentifier>{453d353d-9060-4a2a-bfd7-e5619c862098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\object">
+      <UniqueIdentifier>{1a0b71e7-2332-4856-907a-23fde824c7ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\gui">
+      <UniqueIdentifier>{bdc6f681-adc5-47bf-8ca0-5a2e89d44fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\sprite">
+      <UniqueIdentifier>{e0193287-4d70-41c1-9dca-600d5df16b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\solitaire">
+      <UniqueIdentifier>{8c8c9033-f766-4b8c-b64e-106e94a0f0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\solitaire\cards">
+      <UniqueIdentifier>{30ea10f1-4a7c-428b-9e8b-49352b6e1866}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\screen.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\game.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\object\objectman.cpp">
+      <Filter>src\core\object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\scene.cpp">
+      <Filter>src\core\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\sceneman.cpp">
+      <Filter>src\core\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\subscene.cpp">
+      <Filter>src\core\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\windowobj.cpp">
+      <Filter>src\core\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\interactivewindowobj.cpp">
+      <Filter>src\core\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\solitaire\gamescene.cpp">
+      <Filter>src\solitaire</Filter>
+    </ClCompile>
+    <ClCompile Include="src\solitaire\menuscene.cpp">
+      <Filter>src\solitaire</Filter>
+    </ClCompile>
+    <ClCompile Include="src\solitaire\cards\card.cpp">
+      <Filter>src\solitaire\cards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\solitaire\cards\deck.cpp">
+      <Filter>src\solitaire\cards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\solitaire\cards\pile.cpp">
+      <Filter>src\solitaire\cards</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\core\screen.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\game.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\object\object.h">
+      <Filter>src\core\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\object\objectman.h">
+      <Filter>src\core\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\scene.h">
+      <Filter>src\core\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\sceneman.h">
+      <Filter>src\core\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\subscene.h">
+      <Filter>src\core\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\util\globals.h">
+      <Filter>src\core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\windowobj.h">
+      <Filter>src\core\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\interactivewindowobj.h">
+      <Filter>src\core\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\solitaire\gamescene.h">
+      <Filter>src\solitaire</Filter>
+    </ClInclude>
+    <ClInclude Include="src\solitaire\menuscene.h">
+      <Filter>src\solitaire</Filter>
+    </ClInclude>
+    <ClInclude Include="src\solitaire\cards\card.h">
+      <Filter>src\solitaire\cards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\solitaire\cards\carddata.h">
+      <Filter>src\solitaire\cards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\solitaire\cards\deck.h">
+      <Filter>src\solitaire\cards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\solitaire\cards\pile.h">
+      <Filter>src\solitaire\cards</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
