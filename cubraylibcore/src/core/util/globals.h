@@ -9,7 +9,7 @@ namespace Globals {
     inline const std::string INIT_WINDOW_TITLE = "cubcubcub";
 
     // make it global so it works everywhere
-    static Game* game = nullptr;
+    inline Game* game = nullptr;
 
     static int WINDOW_WIDTH = INIT_WINDOW_WIDTH;
     static int WINDOW_HEIGHT = INIT_WINDOW_HEIGHT;
